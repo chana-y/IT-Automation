@@ -1,0 +1,37 @@
+﻿========================================
+Q4 - WINDOWS SYSTEM INVENTORY
+========================================
+Computer name: g7x-28
+Operating system: Microsoft Windows 11 Pro
+OS version: 10.0.26200
+Processor model: Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+Installed physical memory: 15.88 GB
+
+INSTALLED NETWORK ADAPTERS
+
+Name                                  InterfaceDescription                                      Status      
+----                                  --------------------                                      ------      
+Ethernet 2                            Cisco AnyConnect Virtual Miniport Adapter for Windows x64 Not Present 
+Ethernet                              Realtek PCIe GbE Family Controller                        Disconnected
+Wi-Fi                                 Realtek RTL8822CE 802.11ac PCIe Adapter                   Up          
+Local Area Connection* 7              WAN Miniport (IP)                                         Up          
+Ethernet (Kernel Debugger)            Microsoft Kernel Debug Network Adapter                    Not Present 
+Local Area Connection* 2              WAN Miniport (SSTP)                                       Disconnected
+Bluetooth Network Connection          Bluetooth Device (Personal Area Network)                  Disconnected
+Local Area Connection* 4              WAN Miniport (L2TP)                                       Disconnected
+VMware Network Adapter VMnet8         VMware Virtual Ethernet Adapter for VMnet8                Up          
+Teredo Tunneling Pseudo-Interface                                                               Not Present 
+Local Area Connection* 9              WAN Miniport (Network Monitor)                            Up          
+Local Area Connection* 10             Microsoft Wi-Fi Direct Virtual Adapter #2                 Disconnected
+Local Area Connection* 3              WAN Miniport (IKEv2)                                      Disconnected
+Local Area Connection* 6              WAN Miniport (PPPOE)                                      Disconnected
+Local Area Connection* 1              Microsoft Wi-Fi Direct Virtual Adapter                    Disconnected
+Microsoft IP-HTTPS Platform Interface                                                           Not Present 
+Local Area Connection* 5              WAN Miniport (PPTP)                                       Disconnected
+Local Area Connection* 8              WAN Miniport (IPv6)                                       Up          
+VMware Network Adapter VMnet1         VMware Virtual Ethernet Adapter for VMnet1                Up          
+6to4 Adapter                                                                                    Not Present 
+
+
+
+Generated: 2026-10-22 13:09:50

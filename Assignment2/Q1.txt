@@ -1,0 +1,27 @@
+﻿========================================
+Q1 - PROCESS CPU TIME AND SCHEDULING
+========================================
+Generated: 2026-10-22 13:07:20
+
+TOP FIVE PROCESSES BY CUMULATIVE CPU TIME
+CPU time is measured in seconds, not current CPU percentage.
+
+ProcessName         Id CPUSeconds
+-----------         -- ----------
+System               4     326.97
+CSFalconService   9232     214.17
+chrome           10628     128.31
+chrome            7320      91.36
+RobloxPlayerBeta  5240       88.5
+
+
+
+
+REGISTERED SCHEDULED TASK
+Task name: CIS4431_Assignment2_Q1
+State: Ready
+Account: SYSTEM
+Trigger: Daily at 9:00 AM (Windows local time)
+Start boundary: 2026-10-22T09:00:00-04:00
+Next run: 10/23/2026 09:00:00
+Script: C:\Users\Student\Downloads\Assignment2\Q1.ps1

@@ -1,0 +1,25 @@
+========================================
+Q6 - CPU PROCESSES AND CRON SCHEDULING
+========================================
+Generated: 2026-10-22T13:59:54-04:00
+Crontab owner: chanel-young
+
+TOP FIVE PROCESSES BY CPU PERCENTAGE
+ps %CPU is CPU use averaged over each process lifetime.
+    PID USER                             COMMAND         %CPU
+   4549 chanel-young                     localsearch-ext 50.0
+   2158 chanel-young                     gnome-shell      4.2
+   3197 chanel-young                     ptyxis           1.8
+   2365 chanel-young                     vmtoolsd         0.7
+    834 root                             vmtoolsd         0.5
+
+CONFIGURE DAILY 9:00 AM CRON JOB
+
+VERIFIED CRON ENTRY
+0 9 * * * /bin/bash "/home/chanel-young/Q6.sh" >/dev/null 2>&1 # CIS4431_ASSIGNMENT2_Q6
+
+Schedule: daily at 9:00 AM in the Ubuntu system timezone.
+America/New_York
+
+Execution permissions:
+-rwxrwxr-x 1 chanel-young chanel-young 2195 Oct 22 13:59 /home/chanel-young/Q6.sh

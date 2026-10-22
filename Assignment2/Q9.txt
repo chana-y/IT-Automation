@@ -1,0 +1,29 @@
+========================================
+Q9 - UBUNTU SYSTEM INVENTORY
+========================================
+
+SYSTEM INFORMATION
+Hostname: chanel
+Operating system: Ubuntu 26.04.1 LTS
+
+CPU INFORMATION
+Architecture:                            x86_64
+CPU(s):                                  2
+Model name:                              Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+Thread(s) per core:                      1
+Core(s) per socket:                      1
+
+MEMORY INFORMATION
+               total        used        free      shared  buff/cache   available
+Mem:           5.2Gi       1.5Gi       2.4Gi        18Mi       1.6Gi       3.7Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+AVAILABLE NETWORK INTERFACES
+lo               UNKNOWN        00:00:00:00:00:00 <LOOPBACK,UP,LOWER_UP> 
+ens33            UP             00:0c:29:7e:2c:cd <BROADCAST,MULTICAST,UP,LOWER_UP> 
+
+ASSIGNED IP ADDRESSES
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens33            UP             192.168.11.128/24 fe80::20c:29ff:fe7e:2ccd/64 
+
+Generated: 2026-10-22T13:33:54-04:00

@@ -1,0 +1,54 @@
+========================================
+Q8 - UBUNTU SSH TROUBLESHOOTING
+========================================
+Generated: 2026-10-22T13:14:48-04:00
+Hostname: chanel
+Username: chanel-young
+
+OPENSSH SERVER INSTALLATION CHECK
+OpenSSH server is already installed.
+Package: openssh-server
+Version: 1:10.2p1-2ubuntu3.8
+Status: install ok installed
+
+SSH SERVICE STATUS BEFORE START CHECK
+active
+
+SSH SERVICE STATUS
+* ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/usr/lib/systemd/system/ssh.service; enabled; preset: enabled)
+     Active: active (running) since Thu 2026-10-22 13:13:03 EDT; 1min 45s ago
+ Invocation: df49be181de74a0d95de63665ca8bcb1
+TriggeredBy: * ssh.socket
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 1373 ExecStartPre=/usr/sbin/sshd -t (code=exited, status=0/SUCCESS)
+   Main PID: 1397 (sshd)
+      Tasks: 1 (limit: 3826)
+     Memory: 1.8M (peak: 2.3M)
+        CPU: 95ms
+     CGroup: /system.slice/ssh.service
+             `-1397 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+
+Oct 22 13:13:02 chanel systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Oct 22 13:13:03 chanel sshd[1397]: Server listening on 0.0.0.0 port 22.
+Oct 22 13:13:03 chanel sshd[1397]: Server listening on :: port 22.
+Oct 22 13:13:03 chanel systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+
+NETWORK INTERFACES AND IPv4 ADDRESSES
+lo               UNKNOWN        127.0.0.1/8 
+ens33            UP             192.168.11.128/24 
+
+DEFAULT ROUTE
+default via 192.168.11.2 dev ens33 proto dhcp src 192.168.11.128 metric 100 
+
+TCP PORT 22 LISTENERS
+State  Recv-Q Send-Q Local Address:Port Peer Address:PortProcess                                                 
+LISTEN 0      4096         0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=1397,fd=3),("systemd",pid=1,fd=99)) 
+LISTEN 0      4096            [::]:22           [::]:*    users:(("sshd",pid=1397,fd=4),("systemd",pid=1,fd=100))
+
+SSH ED25519 HOST PUBLIC-KEY FINGERPRINT
+256 SHA256:FCwITAcpFrDEj1VtT5ktKq7rOJGzcG6ZmRnR0bgZdKE root@chanel-young-VMware-Virtual-Platform (ED25519)
+
+FIREWALL STATUS
+Status: inactive

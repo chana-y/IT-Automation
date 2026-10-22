@@ -1,0 +1,28 @@
+﻿========================================
+Q5 - WINDOWS PATCH AND RESTORE INFORMATION
+========================================
+
+FIVE MOST RECENT INSTALLED UPDATES
+Source: Get-HotFix; some update types are not included.
+
+HotFixID  InstalledOn           
+--------  -----------           
+KB5127648 10/16/2026 12:00:00 AM
+KB5127690 10/16/2026 12:00:00 AM
+KB5127647 10/15/2026 12:00:00 AM
+KB5054156 4/27/2026 12:00:00 AM 
+KB5054273 4/29/2025 12:00:00 AM 
+
+
+
+
+WINDOWS UPDATE SERVICE
+Name: wuauserv
+Status: Running
+
+SYSTEM RESTORE POINTS
+No restore points were returned.
+System Protection may be disabled or no points have been created.
+
+Generated: 2026-10-22 13:11:19
+No Windows updates were installed or uninstalled.

@@ -1,0 +1,302 @@
+========================================
+Q10 - UBUNTU PATCH MANAGEMENT
+========================================
+Started: 2026-10-22T13:53:52-04:00
+
+REFRESH PACKAGE INDEX
+Hit:1 http://us.archive.ubuntu.com/ubuntu resolute InRelease
+Get:2 http://us.archive.ubuntu.com/ubuntu resolute-updates InRelease [137 kB]
+Get:3 http://security.ubuntu.com/ubuntu resolute-security InRelease [137 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu resolute-backports InRelease [137 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu resolute-updates/main amd64 Packages [744 kB]
+Get:6 http://us.archive.ubuntu.com/ubuntu resolute-updates/main Translation-en [176 kB]
+Get:7 http://us.archive.ubuntu.com/ubuntu resolute-updates/main amd64 Components [110 kB]
+Get:8 http://us.archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Packages [334 kB]
+Get:9 http://us.archive.ubuntu.com/ubuntu resolute-updates/universe amd64 Components [201 kB]
+Get:10 http://us.archive.ubuntu.com/ubuntu resolute-backports/universe amd64 Components [1056 B]
+Get:11 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Packages [606 kB]
+Get:12 http://security.ubuntu.com/ubuntu resolute-security/main amd64 Components [46.8 kB]
+Get:13 http://security.ubuntu.com/ubuntu resolute-security/universe amd64 Components [55.5 kB]
+Fetched 2687 kB in 2s (1500 kB/s)
+Reading package lists...
+
+PACKAGES WITH AVAILABLE UPDATES
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Listing...
+alsa-ucm-conf/resolute-updates 1.2.15.3-1ubuntu1.7 all [upgradable from: 1.2.15.3-1ubuntu1.5]
+cloud-init-base/resolute-updates 26.2-0ubuntu1~26.04.1 all [upgradable from: 26.1-0ubuntu3~26.04.1]
+cloud-init/resolute-updates 26.2-0ubuntu1~26.04.1 all [upgradable from: 26.1-0ubuntu3~26.04.1]
+dmidecode/resolute-updates 3.6-2ubuntu1 amd64 [upgradable from: 3.6-2build1]
+dnsmasq-base/resolute-updates 2.92-1ubuntu0.5 amd64 [upgradable from: 2.92-1ubuntu0.4]
+gir1.2-adw-1/resolute-updates 1.9.1-0ubuntu0.2 amd64 [upgradable from: 1.9.1-0ubuntu0.1]
+gir1.2-mutter-18/resolute-updates 50.1-0ubuntu2.5 amd64 [upgradable from: 50.1-0ubuntu2.2]
+glycin-loaders/resolute-updates 2.1.5+ds-0ubuntu0.2 amd64 [upgradable from: 2.1.1+ds-0ubuntu1]
+glycin-thumbnailers/resolute-updates 2.1.5+ds-0ubuntu0.2 amd64 [upgradable from: 2.1.1+ds-0ubuntu1]
+gnome-shell-common/resolute-updates 50.1-0ubuntu1.4 all [upgradable from: 50.1-0ubuntu1.2]
+gnome-shell-ubuntu-extensions/resolute-updates 50.26.04.8ubuntu all [upgradable from: 50.26.04.7ubuntu]
+gnome-shell/resolute-updates 50.1-0ubuntu1.4 amd64 [upgradable from: 50.1-0ubuntu1.2]
+gstreamer1.0-pipewire/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+libadwaita-1-0/resolute-updates 1.9.1-0ubuntu0.2 amd64 [upgradable from: 1.9.1-0ubuntu0.1]
+libglycin-2-0/resolute-updates 2.1.5+ds-0ubuntu0.2 amd64 [upgradable from: 2.1.1+ds-0ubuntu1]
+libglycin-gtk4-2-0/resolute-updates 2.1.5+ds-0ubuntu0.2 amd64 [upgradable from: 2.1.1+ds-0ubuntu1]
+libinsights0/resolute-updates 0.9.3ubuntu0.1 amd64 [upgradable from: 0.9.3ubuntu]
+libipa-hbac0t64/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+libmalcontent-0-0/resolute-updates 0.14.0-0ubuntu1.2 amd64 [upgradable from: 0.14.0-0ubuntu1.1]
+libmalcontent-common/resolute-updates 0.14.0-0ubuntu1.2 all [upgradable from: 0.14.0-0ubuntu1.1]
+libmp3lame0/resolute-updates 3.101~svn6525+dfsg-2ubuntu0.1 amd64 [upgradable from: 3.101~svn6525+dfsg-2]
+libmutter-18-0/resolute-updates 50.1-0ubuntu2.5 amd64 [upgradable from: 50.1-0ubuntu2.2]
+libnautilus-extension4/resolute-updates 1:50.2.2-0ubuntu0.2 amd64 [upgradable from: 1:50.2.2-0ubuntu0.1]
+libnetplan1/resolute-updates 1.2-1ubuntu5.1 amd64 [upgradable from: 1.2-1ubuntu5]
+libnss-sss/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+libnss-systemd/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+libpam-sss/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+libpam-systemd/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+libpipewire-0.3-0t64/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+libpipewire-0.3-common/resolute-updates 1.6.2-1ubuntu1.2 all [upgradable from: 1.6.2-1ubuntu1.1]
+libpipewire-0.3-modules/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+libspa-0.2-bluetooth/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+libspa-0.2-modules/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+libsss-certmap0/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+libsss-idmap0/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+libsss-nss-idmap0/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+libsystemd-shared/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+libsystemd0/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+libudev1/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+libwireplumber-0.5-0/resolute-updates 0.5.13-1ubuntu1.1 amd64 [upgradable from: 0.5.13-1ubuntu1]
+mutter-common-bin/resolute-updates 50.1-0ubuntu2.5 amd64 [upgradable from: 50.1-0ubuntu2.2]
+mutter-common/resolute-updates 50.1-0ubuntu2.5 all [upgradable from: 50.1-0ubuntu2.2]
+nautilus-data/resolute-updates 1:50.2.2-0ubuntu0.2 all [upgradable from: 1:50.2.2-0ubuntu0.1]
+nautilus/resolute-updates 1:50.2.2-0ubuntu0.2 amd64 [upgradable from: 1:50.2.2-0ubuntu0.1]
+netplan-generator/resolute-updates 1.2-1ubuntu5.1 amd64 [upgradable from: 1.2-1ubuntu5]
+netplan.io/resolute-updates 1.2-1ubuntu5.1 amd64 [upgradable from: 1.2-1ubuntu5]
+open-vm-tools-desktop/resolute-updates 2:13.0.10-1ubuntu1.1 amd64 [upgradable from: 2:13.0.10-1ubuntu1]
+open-vm-tools/resolute-updates 2:13.0.10-1ubuntu1.1 amd64 [upgradable from: 2:13.0.10-1ubuntu1]
+openvpn/resolute-security 2.7.0-1ubuntu1.4 amd64 [upgradable from: 2.7.0-1ubuntu1.3]
+orca/resolute-updates 50.3-0ubuntu0.1 all [upgradable from: 50.2-0ubuntu0.1]
+pipewire-alsa/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+pipewire-audio/resolute-updates 1.6.2-1ubuntu1.2 all [upgradable from: 1.6.2-1ubuntu1.1]
+pipewire-bin/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+pipewire-pulse/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+pipewire/resolute-updates 1.6.2-1ubuntu1.2 amd64 [upgradable from: 1.6.2-1ubuntu1.1]
+python3-distupgrade/resolute-updates 1:26.04.27 all [upgradable from: 1:26.04.23]
+python3-netplan/resolute-updates 1.2-1ubuntu5.1 amd64 [upgradable from: 1.2-1ubuntu5]
+python3-sss/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+rtkit/resolute-updates 0.14-1ubuntu0.1 amd64 [upgradable from: 0.14-1]
+rust-coreutils/resolute-updates 0.10.0-1ubuntu2~26.04.1 amd64 [upgradable from: 0.8.0-0ubuntu3]
+snapd/resolute-updates 2.77.1+ubuntu26.04.2 amd64 [upgradable from: 2.76.3+ubuntu26.04]
+sssd-ad-common/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd-ad/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd-common/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd-ipa/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd-krb5-common/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd-krb5/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd-ldap/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd-proxy/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+sssd/resolute-updates 2.12.0-1ubuntu5.5 amd64 [upgradable from: 2.12.0-1ubuntu5.4]
+systemd-cryptsetup/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+systemd-oomd/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+systemd-resolved/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+systemd-sysv/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+systemd/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+thermald/resolute-updates 2.5.11-0ubuntu1.1 amd64 [upgradable from: 2.5.11-0ubuntu1]
+ubuntu-desktop-minimal/resolute-updates 1.570.4 amd64 [upgradable from: 1.570.3]
+ubuntu-insights/resolute-updates 0.9.3ubuntu0.1 amd64 [upgradable from: 0.9.3ubuntu]
+ubuntu-kernel-accessories/resolute-updates 1.570.4 amd64 [upgradable from: 1.570.3]
+ubuntu-minimal/resolute-updates 1.570.4 amd64 [upgradable from: 1.570.3]
+ubuntu-pro-client-l10n/resolute-updates 38ubuntu0~26.04 amd64 [upgradable from: 37.2ubuntu0.1]
+ubuntu-pro-client/resolute-updates 38ubuntu0~26.04 amd64 [upgradable from: 37.2ubuntu0.1]
+ubuntu-release-upgrader-core/resolute-updates 1:26.04.27 all [upgradable from: 1:26.04.23]
+ubuntu-release-upgrader-gtk/resolute-updates 1:26.04.27 all [upgradable from: 1:26.04.23]
+ubuntu-standard/resolute-updates 1.570.4 amd64 [upgradable from: 1.570.3]
+udev/resolute-updates 259.9-0ubuntu0.1 amd64 [upgradable from: 259.5-0ubuntu3.4]
+wireplumber/resolute-updates 0.5.13-1ubuntu1.1 amd64 [upgradable from: 0.5.13-1ubuntu1]
+xserver-common/resolute-updates 2:21.1.22-1ubuntu1.3 all [upgradable from: 2:21.1.22-1ubuntu1]
+xserver-xorg-core/resolute-updates 2:21.1.22-1ubuntu1.3 amd64 [upgradable from: 2:21.1.22-1ubuntu1]
+
+SIMULATED UPGRADE - NO UPDATES INSTALLED
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following upgrades have been deferred due to phasing:
+  gir1.2-mutter-18 libinsights0 libmutter-18-0 mutter-common mutter-common-bin
+  orca rtkit ubuntu-insights ubuntu-pro-client ubuntu-pro-client-l10n
+  xserver-common xserver-xorg-core
+The following packages will be upgraded:
+  alsa-ucm-conf cloud-init cloud-init-base dmidecode dnsmasq-base gir1.2-adw-1
+  glycin-loaders glycin-thumbnailers gnome-shell gnome-shell-common
+  gnome-shell-ubuntu-extensions gstreamer1.0-pipewire libadwaita-1-0
+  libglycin-2-0 libglycin-gtk4-2-0 libipa-hbac0t64 libmalcontent-0-0
+  libmalcontent-common libmp3lame0 libnautilus-extension4 libnetplan1
+  libnss-sss libnss-systemd libpam-sss libpam-systemd libpipewire-0.3-0t64
+  libpipewire-0.3-common libpipewire-0.3-modules libspa-0.2-bluetooth
+  libspa-0.2-modules libsss-certmap0 libsss-idmap0 libsss-nss-idmap0
+  libsystemd-shared libsystemd0 libudev1 libwireplumber-0.5-0 nautilus
+  nautilus-data netplan-generator netplan.io open-vm-tools
+  open-vm-tools-desktop openvpn pipewire pipewire-alsa pipewire-audio
+  pipewire-bin pipewire-pulse python3-distupgrade python3-netplan python3-sss
+  rust-coreutils snapd sssd sssd-ad sssd-ad-common sssd-common sssd-ipa
+  sssd-krb5 sssd-krb5-common sssd-ldap sssd-proxy systemd systemd-cryptsetup
+  systemd-oomd systemd-resolved systemd-sysv thermald ubuntu-desktop-minimal
+  ubuntu-kernel-accessories ubuntu-minimal ubuntu-release-upgrader-core
+  ubuntu-release-upgrader-gtk ubuntu-standard udev wireplumber
+77 upgraded, 0 newly installed, 0 to remove and 12 not upgraded.
+Inst libsystemd0 [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [systemd:amd64 ]
+Conf libsystemd0 (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [systemd:amd64 ]
+Inst libpam-systemd [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [systemd:amd64 ]
+Inst systemd-sysv [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [systemd:amd64 ]
+Inst systemd-resolved [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [systemd:amd64 ]
+Inst systemd-oomd [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [systemd:amd64 ]
+Inst libsystemd-shared [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [systemd:amd64 on libsystemd-shared:amd64] [udev:amd64 systemd:amd64 systemd-cryptsetup:amd64 ]
+Conf libsystemd-shared (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [udev:amd64 systemd:amd64 systemd-cryptsetup:amd64 ]
+Inst systemd [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [udev:amd64 systemd-cryptsetup:amd64 ]
+Inst systemd-cryptsetup [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) [udev:amd64 ]
+Inst udev [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libudev1 [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf libudev1 (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Inst rust-coreutils [0.8.0-0ubuntu3] (0.10.0-1ubuntu2~26.04.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf rust-coreutils (0.10.0-1ubuntu2~26.04.1 Ubuntu:26.04/resolute-updates [amd64])
+Inst python3-netplan [1.2-1ubuntu5] (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst netplan-generator [1.2-1ubuntu5] (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst netplan.io [1.2-1ubuntu5] (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libnetplan1 [1.2-1ubuntu5] (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64])
+Inst libnss-systemd [259.5-0ubuntu3.4] (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Inst ubuntu-minimal [1.570.3] (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Inst dmidecode [3.6-2build1] (3.6-2ubuntu1 Ubuntu:26.04/resolute-updates [amd64])
+Inst ubuntu-release-upgrader-gtk [1:26.04.23] (1:26.04.27 Ubuntu:26.04/resolute-updates [all]) []
+Inst ubuntu-release-upgrader-core [1:26.04.23] (1:26.04.27 Ubuntu:26.04/resolute-updates [all]) []
+Inst python3-distupgrade [1:26.04.23] (1:26.04.27 Ubuntu:26.04/resolute-updates [all])
+Inst ubuntu-standard [1.570.3] (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Inst alsa-ucm-conf [1.2.15.3-1ubuntu1.5] (1.2.15.3-1ubuntu1.7 Ubuntu:26.04/resolute-updates [all])
+Inst cloud-init-base [26.1-0ubuntu3~26.04.1] (26.2-0ubuntu1~26.04.1 Ubuntu:26.04/resolute-updates [all]) [cloud-init:amd64 ]
+Inst cloud-init [26.1-0ubuntu3~26.04.1] (26.2-0ubuntu1~26.04.1 Ubuntu:26.04/resolute-updates [all])
+Inst dnsmasq-base [2.92-1ubuntu0.4] (2.92-1ubuntu0.5 Ubuntu:26.04/resolute-updates [amd64])
+Inst libadwaita-1-0 [1.9.1-0ubuntu0.1] (1.9.1-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst gir1.2-adw-1 [1.9.1-0ubuntu0.1] (1.9.1-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst glycin-loaders [2.1.1+ds-0ubuntu1] (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst libglycin-2-0 [2.1.1+ds-0ubuntu1] (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst glycin-thumbnailers [2.1.1+ds-0ubuntu1] (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst gnome-shell [50.1-0ubuntu1.2] (50.1-0ubuntu1.4 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst gnome-shell-ubuntu-extensions [50.26.04.7ubuntu] (50.26.04.8ubuntu Ubuntu:26.04/resolute-updates [all]) []
+Inst gnome-shell-common [50.1-0ubuntu1.2] (50.1-0ubuntu1.4 Ubuntu:26.04/resolute-updates [all])
+Inst pipewire-pulse [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst pipewire-alsa [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libspa-0.2-bluetooth [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst gstreamer1.0-pipewire [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libpipewire-0.3-modules [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) [pipewire:amd64 pipewire-bin:amd64 ]
+Inst pipewire [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) [pipewire-bin:amd64 ]
+Inst pipewire-bin [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libpipewire-0.3-0t64 [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libspa-0.2-modules [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst libglycin-gtk4-2-0 [2.1.1+ds-0ubuntu1] (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst sssd [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst python3-sss [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libsss-certmap0 [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-proxy [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-krb5 [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-ad [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-ldap [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-ipa [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-krb5-common [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-ad-common [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst sssd-common [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libnss-sss [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libpam-sss [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libsss-nss-idmap0 [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libsss-idmap0 [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libipa-hbac0t64 [2.12.0-1ubuntu5.4] (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Inst libmalcontent-common [0.14.0-0ubuntu1.1] (0.14.0-0ubuntu1.2 Ubuntu:26.04/resolute-updates [all])
+Inst libmalcontent-0-0 [0.14.0-0ubuntu1.1] (0.14.0-0ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst libmp3lame0 [3.101~svn6525+dfsg-2] (3.101~svn6525+dfsg-2ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Inst nautilus [1:50.2.2-0ubuntu0.1] (1:50.2.2-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst nautilus-data [1:50.2.2-0ubuntu0.1] (1:50.2.2-0ubuntu0.2 Ubuntu:26.04/resolute-updates [all]) []
+Inst libnautilus-extension4 [1:50.2.2-0ubuntu0.1] (1:50.2.2-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst libpipewire-0.3-common [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [all])
+Inst wireplumber [0.5.13-1ubuntu1] (0.5.13-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst libwireplumber-0.5-0 [0.5.13-1ubuntu1] (0.5.13-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+Inst openvpn [2.7.0-1ubuntu1.3] (2.7.0-1ubuntu1.4 Ubuntu:26.04/resolute-security [amd64])
+Inst pipewire-audio [1.6.2-1ubuntu1.1] (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [all])
+Inst snapd [2.76.3+ubuntu26.04] (2.77.1+ubuntu26.04.2 Ubuntu:26.04/resolute-updates [amd64])
+Inst thermald [2.5.11-0ubuntu1] (2.5.11-0ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+Inst ubuntu-desktop-minimal [1.570.3] (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Inst ubuntu-kernel-accessories [1.570.3] (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Inst open-vm-tools-desktop [2:13.0.10-1ubuntu1] (2:13.0.10-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64]) []
+Inst open-vm-tools [2:13.0.10-1ubuntu1] (2:13.0.10-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf libpam-systemd (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf systemd-sysv (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf systemd-resolved (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf systemd-oomd (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf systemd (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf systemd-cryptsetup (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf udev (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf python3-netplan (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf netplan-generator (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf netplan.io (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf libnetplan1 (1.2-1ubuntu5.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf libnss-systemd (259.9-0ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf ubuntu-minimal (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Conf dmidecode (3.6-2ubuntu1 Ubuntu:26.04/resolute-updates [amd64])
+Conf ubuntu-release-upgrader-gtk (1:26.04.27 Ubuntu:26.04/resolute-updates [all])
+Conf ubuntu-release-upgrader-core (1:26.04.27 Ubuntu:26.04/resolute-updates [all])
+Conf python3-distupgrade (1:26.04.27 Ubuntu:26.04/resolute-updates [all])
+Conf ubuntu-standard (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Conf alsa-ucm-conf (1.2.15.3-1ubuntu1.7 Ubuntu:26.04/resolute-updates [all])
+Conf cloud-init-base (26.2-0ubuntu1~26.04.1 Ubuntu:26.04/resolute-updates [all])
+Conf cloud-init (26.2-0ubuntu1~26.04.1 Ubuntu:26.04/resolute-updates [all])
+Conf dnsmasq-base (2.92-1ubuntu0.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libadwaita-1-0 (1.9.1-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf gir1.2-adw-1 (1.9.1-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf glycin-loaders (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libglycin-2-0 (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf glycin-thumbnailers (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf gnome-shell (50.1-0ubuntu1.4 Ubuntu:26.04/resolute-updates [amd64])
+Conf gnome-shell-ubuntu-extensions (50.26.04.8ubuntu Ubuntu:26.04/resolute-updates [all])
+Conf gnome-shell-common (50.1-0ubuntu1.4 Ubuntu:26.04/resolute-updates [all])
+Conf pipewire-pulse (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf pipewire-alsa (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libspa-0.2-bluetooth (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf gstreamer1.0-pipewire (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libpipewire-0.3-modules (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf pipewire (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf pipewire-bin (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libpipewire-0.3-0t64 (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libspa-0.2-modules (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libglycin-gtk4-2-0 (2.1.5+ds-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf python3-sss (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libsss-certmap0 (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-proxy (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-krb5 (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-ad (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-ldap (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-ipa (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-krb5-common (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-ad-common (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf sssd-common (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libnss-sss (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libpam-sss (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libsss-nss-idmap0 (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libsss-idmap0 (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libipa-hbac0t64 (2.12.0-1ubuntu5.5 Ubuntu:26.04/resolute-updates [amd64])
+Conf libmalcontent-common (0.14.0-0ubuntu1.2 Ubuntu:26.04/resolute-updates [all])
+Conf libmalcontent-0-0 (0.14.0-0ubuntu1.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libmp3lame0 (3.101~svn6525+dfsg-2ubuntu0.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf nautilus (1:50.2.2-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf nautilus-data (1:50.2.2-0ubuntu0.2 Ubuntu:26.04/resolute-updates [all])
+Conf libnautilus-extension4 (1:50.2.2-0ubuntu0.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf libpipewire-0.3-common (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [all])
+Conf wireplumber (0.5.13-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf libwireplumber-0.5-0 (0.5.13-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf openvpn (2.7.0-1ubuntu1.4 Ubuntu:26.04/resolute-security [amd64])
+Conf pipewire-audio (1.6.2-1ubuntu1.2 Ubuntu:26.04/resolute-updates [all])
+Conf snapd (2.77.1+ubuntu26.04.2 Ubuntu:26.04/resolute-updates [amd64])
+Conf thermald (2.5.11-0ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf ubuntu-desktop-minimal (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Conf ubuntu-kernel-accessories (1.570.4 Ubuntu:26.04/resolute-updates [amd64])
+Conf open-vm-tools-desktop (2:13.0.10-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+Conf open-vm-tools (2:13.0.10-1ubuntu1.1 Ubuntu:26.04/resolute-updates [amd64])
+
+Completed: 2026-10-22T13:54:05-04:00
+No actual package upgrade was performed.

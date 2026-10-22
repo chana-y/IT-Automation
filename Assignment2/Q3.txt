@@ -1,0 +1,205 @@
+﻿========================================
+Q3 - WINDOWS TROUBLESHOOTING
+========================================
+Computer name: g7x-28
+Current user: g7x-28\Student
+Authorized remote target: 192.168.11.128
+Generated: 2026-10-22 13:28:54
+
+STOPPED WINDOWS SERVICES
+
+Name                                     DisplayName                                                                         Status
+----                                     -----------                                                                         ------
+AarSvc_422bc                             AarSvc_422bc                                                                       Stopped
+ADPSvc                                   Aggregated Data Platform Service                                                   Stopped
+ALG                                      Application Layer Gateway Service                                                  Stopped
+AppIDSvc                                 Application Identity                                                               Stopped
+AppMgmt                                  Application Management                                                             Stopped
+AppReadiness                             App Readiness                                                                      Stopped
+AppVClient                               Microsoft App-V Client                                                             Stopped
+ApxSvc                                   Windows Virtual Audio Device Proxy Service                                         Stopped
+AssignedAccessManagerSvc                 AssignedAccessManager Service                                                      Stopped
+autotimesvc                              Cellular Time                                                                      Stopped
+AxInstSV                                 ActiveX Installer (AxInstSV)                                                       Stopped
+BcastDVRUserService_422bc                BcastDVRUserService_422bc                                                          Stopped
+BDESVC                                   BitLocker Drive Encryption Service                                                 Stopped
+BITS                                     Background Intelligent Transfer Service                                            Stopped
+CaptureService_422bc                     CaptureService_422bc                                                               Stopped
+CertPropSvc                              Certificate Propagation                                                            Stopped
+ClipSVC                                  Client License Service (ClipSVC)                                                   Stopped
+CloudBackupRestoreSvc_422bc              CloudBackupRestoreSvc_422bc                                                        Stopped
+cloudidsvc                               Microsoft Cloud Identity Service                                                   Stopped
+COMSysApp                                COM+ System Application                                                            Stopped
+ConsentUxUserSvc_422bc                   ConsentUxUserSvc_422bc                                                             Stopped
+CredentialEnrollmentManagerUserSvc_422bc CredentialEnrollmentManagerUserSvc_422bc                                           Stopped
+CscService                               Offline Files                                                                      Stopped
+dcsvc                                    Declared Configuration(DC) service                                                 Stopped
+defragsvc                                Optimize drives                                                                    Stopped
+DeviceAssociationBrokerSvc_422bc         DeviceAssociationBrokerSvc_422bc                                                   Stopped
+DeviceInstall                            Device Install Service                                                             Stopped
+DevicePickerUserSvc_422bc                DevicePickerUserSvc_422bc                                                          Stopped
+DevQueryBroker                           DevQuery Background Discovery Broker                                               Stopped
+diagsvc                                  Diagnostic Execution Service                                                       Stopped
+DialogBlockingService                    DialogBlockingService                                                              Stopped
+DmEnrollmentSvc                          Device Management Enrollment Service                                               Stopped
+dmwappushservice                         Device Management Wireless Application Protocol (WAP) Push message Routing Service Stopped
+DoSvc                                    Delivery Optimization                                                              Stopped
+dot3svc                                  Wired AutoConfig                                                                   Stopped
+DsmSvc                                   Device Setup Manager                                                               Stopped
+DsSvc                                    Data Sharing Service                                                               Stopped
+edgeupdate                               Microsoft Edge Update Service (edgeupdate)                                         Stopped
+edgeupdatem                              Microsoft Edge Update Service (edgeupdatem)                                        Stopped
+embeddedmode                             Embedded Mode                                                                      Stopped
+EntAppSvc                                Enterprise App Management Service                                                  Stopped
+fdPHost                                  Function Discovery Provider Host                                                   Stopped
+FDResPub                                 Function Discovery Resource Publication                                            Stopped
+fhsvc                                    File History Service                                                               Stopped
+FrameServer                              Windows Camera Frame Server                                                        Stopped
+FrameServerMonitor                       Windows Camera Frame Server Monitor                                                Stopped
+GameInputSvc                             GameInput Service                                                                  Stopped
+GoogleChromeElevationService             Google Chrome Elevation Service (GoogleChromeElevationService)                     Stopped
+GoogleUpdaterInternalService157.0.8089.0 Google Updater Internal Service (GoogleUpdaterInternalService157.0.8089.0)         Stopped
+GoogleUpdaterService157.0.8089.0         Google Updater Service (GoogleUpdaterService157.0.8089.0)                          Stopped
+gpsvc                                    Group Policy Client                                                                Stopped
+GraphicsPerfSvc                          GraphicsPerfSvc                                                                    Stopped
+hpatchmon                                Hotpatch Monitoring Service                                                        Stopped
+icssvc                                   Windows Mobile Hotspot Service                                                     Stopped
+IKEEXT                                   IKE and AuthIP IPsec Keying Modules                                                Stopped
+Intel(R) TPM Provisioning Service        Intel(R) TPM Provisioning Service                                                  Stopped
+IntelAudioService                        Intel(R) Audio Service                                                             Stopped
+IpxlatCfgSvc                             IP Translation Configuration Service                                               Stopped
+IsolationSession                         IsolationSession                                                                   Stopped
+IsoSessionCore                           IsoSessionCore                                                                     Stopped
+KtmRm                                    KtmRm for Distributed Transaction Coordinator                                      Stopped
+lltdsvc                                  Link-Layer Topology Discovery Mapper                                               Stopped
+LocalKdc                                 Kerberos Local Key Distribution Center                                             Stopped
+LxpSvc                                   Language Experience Service                                                        Stopped
+MapsBroker                               Downloaded Maps Manager                                                            Stopped
+McmSvc                                   Mobile Connectivity Management Service                                             Stopped
+McpManagementService                     McpManagementService                                                               Stopped
+MessagingService_422bc                   MessagingService_422bc                                                             Stopped
+MicrosoftCopilotElevationService         Microsoft Copilot Elevation Service (MicrosoftCopilotElevationService)             Stopped
+MicrosoftEdgeElevationService            Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)                   Stopped
+midisrv                                  Windows MIDI Service                                                               Stopped
+MozillaMaintenance                       Mozilla Maintenance Service                                                        Stopped
+MSDTC                                    Distributed Transaction Coordinator                                                Stopped
+MSiSCSI                                  Microsoft iSCSI Initiator Service                                                  Stopped
+msiserver                                Windows Installer                                                                  Stopped
+MsKeyboardFilter                         Microsoft Keyboard Filter                                                          Stopped
+NaturalAuthentication                    Natural Authentication                                                             Stopped
+NcaSvc                                   Network Connectivity Assistant                                                     Stopped
+NcdAutoSetup                             Network Connected Devices Auto-Setup                                               Stopped
+Netlogon                                 Netlogon                                                                           Stopped
+Netman                                   Network Connections                                                                Stopped
+NetSetupSvc                              Network Setup Service                                                              Stopped
+NetTcpPortSharing                        Net.Tcp Port Sharing Service                                                       Stopped
+NgcCtnrSvc                               Microsoft Passport Container                                                       Stopped
+NgcSvc                                   Microsoft Passport                                                                 Stopped
+NlaSvc                                   Network Location Awareness                                                         Stopped
+OneSyncSvc_422bc                         OneSyncSvc_422bc                                                                   Stopped
+P9RdrService_422bc                       P9RdrService_422bc                                                                 Stopped
+PeerDistSvc                              BranchCache                                                                        Stopped
+PenService_422bc                         PenService_422bc                                                                   Stopped
+PerfHost                                 Performance Counter DLL Host                                                       Stopped
+PimIndexMaintenanceSvc_422bc             PimIndexMaintenanceSvc_422bc                                                       Stopped
+pla                                      Performance Logs & Alerts                                                          Stopped
+PrintDeviceConfigurationService          Print Device Configuration Service                                                 Stopped
+PrintNotify                              Printer Extensions and Notifications                                               Stopped
+PrintScanBrokerService                   PrintScanBrokerService                                                             Stopped
+PrintWorkflowUserSvc_422bc               PrintWorkflowUserSvc_422bc                                                         Stopped
+PushToInstall                            Windows PushToInstall Service                                                      Stopped
+QWAVE                                    Quality Windows Audio Video Experience                                             Stopped
+RasAuto                                  Remote Access Auto Connection Manager                                              Stopped
+refsdedupsvc                             ReFS Dedup Service                                                                 Stopped
+RemoteAccess                             Routing and Remote Access                                                          Stopped
+RemoteRegistry                           Remote Registry                                                                    Stopped
+RetailDemo                               Retail Demo Service                                                                Stopped
+RpcLocator                               Remote Procedure Call (RPC) Locator                                                Stopped
+SCardSvr                                 Smart Card                                                                         Stopped
+ScDeviceEnum                             Smart Card Device Enumeration Service                                              Stopped
+SCPolicySvc                              Smart Card Removal Policy                                                          Stopped
+SDRSVC                                   Windows Backup                                                                     Stopped
+seclogon                                 Secondary Logon                                                                    Stopped
+SecurityHealthService                    Windows Security Service                                                           Stopped
+SEMgrSvc                                 Payments and NFC/SE Manager                                                        Stopped
+Sense                                    Windows Defender Advanced Threat Protection Service                                Stopped
+SensorDataService                        Sensor Data Service                                                                Stopped
+SensorService                            Sensor Service                                                                     Stopped
+SensrSvc                                 Sensor Monitoring Service                                                          Stopped
+SessionEnv                               Remote Desktop Configuration                                                       Stopped
+shpamsvc                                 Shared PC Account Manager                                                          Stopped
+smphost                                  Microsoft Storage Spaces SMP                                                       Stopped
+SmsRouter                                Microsoft Windows SMS Router Service.                                              Stopped
+SNMPTrap                                 SNMP Trap                                                                          Stopped
+sppsvc                                   Software Protection                                                                Stopped
+ssh-agent                                OpenSSH Authentication Agent                                                       Stopped
+StiSvc                                   Windows Image Acquisition (WIA)                                                    Stopped
+svsvc                                    Spot Verifier                                                                      Stopped
+swprv                                    Microsoft Software Shadow Copy Provider                                            Stopped
+TapiSrv                                  Telephony                                                                          Stopped
+TermService                              Remote Desktop Services                                                            Stopped
+TieringEngineService                     Storage Tiers Management                                                           Stopped
+TroubleshootingSvc                       Recommended Troubleshooting Service                                                Stopped
+TrustedInstaller                         Windows Modules Installer                                                          Stopped
+tzautoupdate                             Auto Time Zone Updater                                                             Stopped
+UevAgentService                          User Experience Virtualization Service                                             Stopped
+UmRdpService                             Remote Desktop Services UserMode Port Redirector                                   Stopped
+UnistoreSvc_422bc                        UnistoreSvc_422bc                                                                  Stopped
+upnphost                                 UPnP Device Host                                                                   Stopped
+UserDataSvc_422bc                        UserDataSvc_422bc                                                                  Stopped
+vds                                      Virtual Disk                                                                       Stopped
+vmcompute                                Hyper-V Host Compute Service                                                       Stopped
+vmicguestinterface                       Hyper-V Guest Service Interface                                                    Stopped
+vmicheartbeat                            Hyper-V Heartbeat Service                                                          Stopped
+vmickvpexchange                          Hyper-V Data Exchange Service                                                      Stopped
+vmicrdv                                  Hyper-V Remote Desktop Virtualization Service                                      Stopped
+vmicshutdown                             Hyper-V Guest Shutdown Service                                                     Stopped
+vmictimesync                             Hyper-V Time Synchronization Service                                               Stopped
+vmicvmsession                            Hyper-V PowerShell Direct Service                                                  Stopped
+vmicvss                                  Hyper-V Volume Shadow Copy Requestor                                               Stopped
+VmwareAutostartService                   VMware Autostart Service                                                           Stopped
+VSS                                      Volume Shadow Copy                                                                 Stopped
+WaaSMedicSvc                             WaaSMedicSvc                                                                       Stopped
+WalletService                            WalletService                                                                      Stopped
+WarpJITSvc                               Warp JIT Service                                                                   Stopped
+wbengine                                 Block Level Backup Engine Service                                                  Stopped
+WbioSrvc                                 Windows Biometric Service                                                          Stopped
+wcncsvc                                  Windows Connect Now - Config Registrar                                             Stopped
+WdiServiceHost                           Diagnostic Service Host                                                            Stopped
+WdiSystemHost                            Diagnostic System Host                                                             Stopped
+WdNisSvc                                 Microsoft Defender Antivirus Network Inspection Service                            Stopped
+WebClient                                WebClient                                                                          Stopped
+Wecsvc                                   Windows Event Collector                                                            Stopped
+WEPHOSTSVC                               Windows Encryption Provider Host Service                                           Stopped
+wercplsupport                            Problem Reports Control Panel Support                                              Stopped
+WerSvc                                   Windows Error Reporting Service                                                    Stopped
+WFDSConMgrSvc                            Wi-Fi Direct Services Connection Manager Service                                   Stopped
+WiaRpc                                   Still Image Acquisition Events                                                     Stopped
+WinDefend                                Microsoft Defender Antivirus Service                                               Stopped
+WinRM                                    Windows Remote Management (WS-Management)                                          Stopped
+wisvc                                    Windows Insider Service                                                            Stopped
+wlidsvc                                  Microsoft Account Sign-in Assistant                                                Stopped
+wlpasvc                                  Local Profile Assistant Service                                                    Stopped
+WManSvc                                  Windows Management Service                                                         Stopped
+wmiApSrv                                 WMI Performance Adapter                                                            Stopped
+WMPNetworkSvc                            Windows Media Player Network Sharing Service                                       Stopped
+workfolderssvc                           Work Folders                                                                       Stopped
+WpcMonSvc                                Parental Controls                                                                  Stopped
+WPDBusEnum                               Portable Device Enumerator Service                                                 Stopped
+wuauserv                                 Windows Update                                                                     Stopped
+XblAuthManager                           Xbox Live Auth Manager                                                             Stopped
+XblGameSave                              Xbox Live Game Save                                                                Stopped
+XboxGipSvc                               Xbox Accessory Management Service                                                  Stopped
+XboxNetApiSvc                            Xbox Live Networking Service                                                       Stopped
+ZTHELPER                                 ZTDNS Helper service                                                               Stopped
+
+
+
+
+WINDOWS UPDATE SERVICE
+Name: wuauserv
+Status: Stopped
+
+REMOTE CONNECTIVITY TESTS
+ICMP test to 192.168.11.128: SUCCESS
+SSH TCP port 22 test: SUCCESS

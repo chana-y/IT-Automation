@@ -1,0 +1,35 @@
+﻿========================================
+Q2 - SYSTEM AND NETWORK MONITORING
+========================================
+
+SYSTEM INFORMATION
+Computer name: g7x-28
+Operating system: Microsoft Windows 11 Pro
+OS version: 10.0.26200
+
+CPU AND MEMORY
+CPU utilization: 2%
+Total physical memory: 15.88 GB
+Available physical memory: 8.71 GB
+
+SYSTEM DISK: C:
+Total space: 237.53 GB
+Available space: 114.12 GB
+
+ACTIVE NETWORK CONFIGURATION
+Adapter: VMware Network Adapter VMnet8
+IPv4 address: 192.168.11.1
+Default gateway: None configured
+
+Adapter: VMware Network Adapter VMnet1
+IPv4 address: 192.168.217.1
+Default gateway: None configured
+
+Adapter: Wi-Fi
+IPv4 address: 10.108.84.95
+Default gateway: 10.108.0.1
+
+CONNECTIVITY TEST TO 8.8.8.8
+ICMP connectivity: SUCCESS
+
+Generated: 2026-10-22 13:08:56

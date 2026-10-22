@@ -1,0 +1,39 @@
+========================================
+Q7 - UBUNTU SYSTEM AND NETWORK MONITORING
+========================================
+
+SYSTEM INFORMATION
+Hostname: chanel
+Operating system: Ubuntu 26.04.1 LTS
+
+CPU INFORMATION
+CPU(s):                                  2
+Model name:                              Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+Online logical processors: 2
+
+PHYSICAL MEMORY
+               total        used        free      shared  buff/cache   available
+Mem:           5.2Gi       1.5Gi       2.4Gi        18Mi       1.6Gi       3.8Gi
+Swap:          4.0Gi          0B       4.0Gi
+
+DISK UTILIZATION
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2        40G   16G   22G  42% /
+/dev/sr1        6.1G  6.1G     0 100% /run/media/chanel-young/Ubuntu 26.04.1 LTS amd64
+/dev/sr0        108M  108M     0 100% /run/media/chanel-young/CDROM
+
+ACTIVE NETWORK INTERFACES AND IP ADDRESSES
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+ens33            UP             192.168.11.128/24 fe80::20c:29ff:fe7e:2ccd/64 
+
+CONNECTIVITY TEST TO 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=128 time=166 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=128 time=12.7 ms
+
+--- 8.8.8.8 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 12.663/89.506/166.350/76.843 ms
+Connectivity test: SUCCESS
+
+Generated: 2026-10-22T13:33:00-04:00
